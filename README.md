@@ -12,3 +12,9 @@ Docker
 ```
 docker-compose up -d
 ```
+
+Database driver to Postgres
+```
+go get github.com/jackc/pgx/v4
+go get github.com/jackc/pgconn
+```
