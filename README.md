@@ -7,3 +7,8 @@ go mod init github.com/EvgeniyBudaev/working-with-golang
 ```
 go get -u github.com/go-chi/chi/v5
 ```
+
+Docker
+```
+docker-compose up -d
+```
