@@ -18,9 +18,9 @@ type Auth struct {
 }
 
 type jwtUser struct {
-	ID        int `json:"id"`
-	FirstName int `json:"first_name"`
-	LastName  int `json:"last_name"`
+	ID        int    `json:"id"`
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last_name"`
 }
 
 type TokenPairs struct {

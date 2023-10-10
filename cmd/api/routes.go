@@ -13,8 +13,8 @@ func (app *application) routes() http.Handler {
 	mux.Use(app.enableCORS)
 
 	mux.Get("/", app.Home)
-
 	mux.Get("/movies", app.AllMovies)
+	mux.Get("/authenticate", app.authenticate)
 
 	return mux
 }
